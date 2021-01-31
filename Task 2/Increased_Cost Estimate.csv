@@ -1,0 +1,20 @@
+,Region,Service,Upfront,Monthly,Annually,Currency,Configuration summary
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),Amazon CloudWatch,0,21.09,253.08,USD,
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),Amazon Route 53,0,1525.9,18310.8,USD,"Hosted Zones (1), Basic Checks Within AWS (3000)"
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,2282.85,27394.2,USD,Number of NAT Gateways (1)
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),Elastic Load Balancing,0,947.18,11366.16,USD,"Number of Network Load Balancers (1), Average number of new TCP connections (5000 per second), Average number of new UDP Flows (5000 per second), Average UDP Flow duration (60 seconds), Average TCP connection duration (60 seconds), Processed bytes per NLB for TCP (100 GB per hour), Processed bytes per NLB for UDP (10 GB per hour), Average number of new TLS connections (5000 per second), Average TLS connection duration (60 seconds), Processed bytes per NLB for TLS (100 GB per hour)"
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),Elastic Load Balancing,0,2644.43,31733.16,USD,Number of Application Load Balancers (1)
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),S3 Standard,0,1285.27,15423.24,USD,S3 Standard storage (50000 GB per month)
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),S3 Standard - Infrequent Access,0,1126.05,13512.6,USD,S3 Infrequent Access storage (50000 GB per month)
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),S3 Glacier,0,205,2460,USD,S3 Glacier storage (50000 GB per month)
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD,"Inbound (from: Not selected) 0 TB per month 
+ Outbound (to: Not selected) 0 TB per month"
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),Amazon Elastic IP,0,0,0,USD,"Number of EC2 instances (1), Number of EIPs per instance (1)"
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),Amazon EC2,0,2692,32304,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (6000 GB), Instance type (m4.large)"
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,3259.32,39111.84,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (6000 GB)"
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),Amazon EC2,0,1375.2,16502.4,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (3000 GB), Instance type (t3.large)"
+Udacity AWS - Increased_Cost Estimate,US East (N. Virginia),Amazon ElastiCache,0,1328.6,15943.2,USD,(2 instances)  Memcached  Memory optimized  cache r4.2xlarge  OnDemand
+,,,,,,,
+Monthly Total:,,,,18692.89,224314.68,,
+,,,,,,,
+"Changes made: Added ElastiCache to provide secure, blazing fast performance; Doubled the storage amount of web servers and RDS for MySQL; Increased the Basic Checks amount of Route 53; Increased the specs of Application Load Balancer, NAT; Added S3 Infrequent Access storage and S3 Glacier storage. ",,,,,,,

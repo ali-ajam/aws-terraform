@@ -1,0 +1,18 @@
+,Region,Service,Monthly,Annualy,Currency,Configuration summary
+Udacity AWS Initial Cost,US East (N. Virginia),Amazon EC2,"1,046.16",12553.92,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (2000 GB), Instance type (t3.large)"
+Udacity AWS Initial Cost,US East (N. Virginia),Amazon RDS for MySQL,1879.32,22551.84,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (3000 GB)"
+Udacity AWS Initial Cost,US East (N. Virginia),Amazon EC2,981.04,11772.48,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (2000 GB), Instance type (m4.large)"
+Udacity AWS Initial Cost,US East (N. Virginia),Amazon Elastic IP,0,0,USD,"Number of EC2 instances (1), Number of EIPs per instance (1)"
+Udacity AWS Initial Cost,US East (N. Virginia),S3 Standard,1285.27,15423.24,USD,S3 Standard storage (50000 GB per month)
+Udacity AWS Initial Cost,US East (N. Virginia),Data Transfer,0,0,USD,"Inbound (from: Not selected) 0 TB per month 
+ Outbound (to: Not selected) 0 TB per month"
+Udacity AWS Initial Cost,US East (N. Virginia),Elastic Load Balancing,1184.43,14213.16,USD,Number of Application Load Balancers (1)
+Udacity AWS Initial Cost,US East (N. Virginia),Elastic Load Balancing,552.98,6635.76,USD,"Number of Network Load Balancers (1), Average number of new TCP connections (5000 per second), Average number of new UDP Flows (5000 per second), Average UDP Flow duration (60 seconds), Average TCP connection duration (60 seconds), Processed bytes per NLB for TCP (10 GB per hour), Processed bytes per NLB for UDP (10 GB per hour), Average number of new TLS connections (5000 per second), Average TLS connection duration (60 seconds), Processed bytes per NLB for TLS (10 GB per hour)"
+Udacity AWS Initial Cost,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),257.85,3094.2,USD,Number of NAT Gateways (1)
+Udacity AWS Initial Cost,US East (N. Virginia),Amazon Route 53,175.9,2110.8,USD,"Hosted Zones (1), Basic Checks Within AWS (300)"
+Udacity AWS Initial Cost,US East (N. Virginia),Amazon CloudWatch,21.09,253.08,USD,
+,,,,,,
+,,,,,,
+,,,,,,
+"Monthly Total: 7,384.04",,,"7,384.04",88608.48,,
+Annually Total:  88608.48,,,,,,
